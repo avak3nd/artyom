@@ -3,7 +3,7 @@ import { LocationAlt } from "@boxicons/react"
 
 function Experience() {
     return (
-        <div className="px-6 pt-6 pb-10 border border-[#ededee] bg-white rounded-2xl flex flex-col justify-between w-full max-w-225 mx-auto">
+        <div className="px-6 pt-6 pb-10 border border-[#ededee] bg-white rounded-2xl flex flex-col justify-between w-full max-w-225 mx-auto" id="Experience">
             <div className="border-b border-[#ededee] pb-8 mb-10">
                 <div
                     className="flex h-13.5 w-13.5 items-center justify-center rounded-xl border border-[#ededee] bg-[#f6f6f6] text-white mb-8"

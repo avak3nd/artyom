@@ -14,8 +14,8 @@ function Navbar() {
 
                 <ul className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center flex max-lg:hidden">
                     <li><a href="#" className="link">Profile</a></li>
-                    <li><a href="#" className="link">Experience</a></li>
-                    <li><a href="#" className="link">Education</a></li>
+                    <li><a href="#Experience" className="link">Experience</a></li>
+                    <li><a href="#Education" className="link">Education</a></li>
                     <li><a href="#" className="link">Skills</a></li>
                     <li><a href="#" className="link">Pricing</a></li>
                     <li><a href="#" className="link">Feedbacks</a></li>

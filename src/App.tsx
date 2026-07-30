@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Profile from './components/Profile'
 import Experience from './components/Experience'
+import Education from './components/Education'
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <Navbar />
       <Hero />
       <Profile />
-      <div className='mt-3'>
+      <div className='mt-3 flex flex-col gap-3'>
         <Experience />
+        <Education />
       </div>
     </div>
   )
