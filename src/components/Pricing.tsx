@@ -1,6 +1,33 @@
 import { ArrowUpRightStroke, CurrencyNote } from "@boxicons/react"
 
 function Pricing() {
+    const pricingPlans = [
+        {
+            title: "Career Resume Refresh",
+            price: "$20",
+            features: [
+                "Resume review",
+                "Complete resume rewrite",
+                "ATS-friendly formatting",
+                "One revision",
+                "Delivery within 2 days",
+            ],
+            link: "#",
+        },
+        {
+            title: "Additional Services",
+            price: "$5 each",
+            features: [
+                "LinkedIn profile optimization",
+                "Tailor resume to one job posting",
+                "Cover letter",
+                "GitHub review (for developers)",
+                "Extra revisions",
+            ],
+            link: "#",
+        },
+    ];
+
     return (
         <div className="px-6 pt-6 pb-10 border border-[#ededee] bg-white rounded-2xl flex flex-col justify-between w-full max-w-225 mx-auto" id="Pricing">
             <div className="border-b border-[#ededee] pb-8 mb-10">
@@ -14,35 +41,30 @@ function Pricing() {
             </div>
 
             <div className="grid grid-cols-2 gap-3">
-                <div className="border border-[#ededee] p-6 rounded-2xl">
-                    <p className="font-medium">Career Resume Refresh — $20</p>
-                    <ul className="mt-3 text-[#77777d] text-[13.5px] gap-1 flex flex-col">
-                        <li>- Resume review</li>
-                        <li>- Full rewrite</li>
-                        <li>- ATS-friendly formatting</li>
-                        <li>- One revision</li>
-                        <li>- Delivery within 2 days</li>
-                    </ul>
-                    <a href="#" className="mt-4 flex items-center w-fit px-4 py-2.5 rounded-xl bg-[#ededee] text-[14px] font-medium gap-2 hover:bg-[#e3e3e4] transition-all duration-200">
-                        <ArrowUpRightStroke />
-                        <span>Show Details</span>
-                    </a>
-                </div>
+                {pricingPlans.map((plan) => (
+                    <div
+                        key={plan.title}
+                        className="border border-[#ededee] p-6 rounded-2xl"
+                    >
+                        <p className="font-medium">
+                            {plan.title} — {plan.price}
+                        </p>
 
-                <div className="border border-[#ededee] p-6 rounded-2xl">
-                    <p className="font-medium">Inexpensive extras — $5 each</p>
-                    <ul className="mt-3 text-[#77777d] text-[13.5px] gap-1 flex flex-col">
-                        <li>- LinkedIn optimization</li>
-                        <li>- Tailor resume to one job posting</li>
-                        <li>- Cover letter</li>
-                        <li>- GitHub profile review (for developers)</li>
-                        <li>- Additional revisions</li>
-                    </ul>
-                    <a href="#" className="mt-4 flex items-center w-fit px-4 py-2.5 rounded-xl bg-[#ededee] text-[14px] font-medium gap-2 hover:bg-[#e3e3e4] transition-all duration-200">
-                        <ArrowUpRightStroke />
-                        <span>Show Details</span>
-                    </a>
-                </div>
+                        <ul className="mt-3 text-[#77777d] text-[13.5px] flex flex-col gap-1">
+                            {plan.features.map((feature) => (
+                                <li key={feature}>- {feature}</li>
+                            ))}
+                        </ul>
+
+                        <a
+                            href={plan.link}
+                            className="mt-4 flex items-center w-fit px-4 py-2.5 rounded-xl bg-[#ededee] text-[14px] font-medium gap-2 hover:bg-[#e5e5e7] transition-all duration-200"
+                        >
+                            <ArrowUpRightStroke />
+                            <span>Show Details</span>
+                        </a>
+                    </div>
+                ))}
             </div>
         </div>
     )

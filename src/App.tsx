@@ -1,12 +1,13 @@
 import './App.css'
 
-import Navbar from './components/Navbar'
+import Navbar from './layouts/Navbar'
 import Hero from './components/Hero'
 import Profile from './components/Profile'
 import Experience from './components/Experience'
 import Education from './components/Education'
 import Skills from './components/Skills'
 import Pricing from './components/Pricing'
+import Feedbacks from './components/Feedbacks'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Education />
         <Skills />
         <Pricing />
+        <Feedbacks />
       </div>
     </div>
   )

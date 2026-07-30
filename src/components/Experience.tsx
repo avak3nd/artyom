@@ -2,6 +2,36 @@ import { Briefcase } from "@boxicons/react"
 import { LocationAlt } from "@boxicons/react"
 
 function Experience() {
+    const experiences = [
+        {
+            title: "Frontend Developer",
+            company: "Unite Venture Studio",
+            employment: "Full-Time",
+            period: "Aug 2025 - Present",
+            location: "Ashgabat, Ahal, Turkmenistan",
+            description:
+                "Developed subscription management, payment, and customer dashboard features for a SaaS platform, delivering responsive, scalable user experiences while collaborating closely with backend engineers to build and integrate reliable APIs.",
+        },
+        {
+            title: "Frontend Developer",
+            company: "ORLAN",
+            employment: "Full-Time",
+            period: "Jun 2024 - Aug 2025",
+            location: "Ashgabat, Ahal, Turkmenistan",
+            description:
+                "Developed scalable frontend solutions for a consulting platform, building reusable dashboard components, client management features, and secure authentication while collaborating with backend engineers to deliver reliable and maintainable applications.",
+        },
+        {
+            title: "Frontend Developer",
+            company: "Breakthrough Academy",
+            employment: "Full-Time",
+            period: "Sep 2023 - Jun 2024",
+            location: "Johor Bahru, Johor, Malaysia",
+            description:
+                "Developed responsive frontend solutions for a consulting platform, building client onboarding, consultation workflows, and interactive forms while collaborating with backend engineers to deliver accessible and user-friendly experiences.",
+        },
+    ];
+
     return (
         <div className="px-6 pt-6 pb-10 border border-[#ededee] bg-white rounded-2xl flex flex-col justify-between w-full max-w-225 mx-auto" id="Experience">
             <div className="border-b border-[#ededee] pb-8 mb-10">
@@ -14,67 +44,41 @@ function Experience() {
                 <p className="text-[#77777d] text-[14px] mt-3 font-medium max-w-100 ">Experienced in software development, I help clients showcase their expertise and advance their careers.</p>
             </div>
 
-            <div className="border-l-2 border-[#ededee] pb-8">
-                <div className="relative pl-6">
-                    <div className="flex gap-3 justify-between items-center">
-                        <div>
-                            <p className="font-medium">Frontend Developer</p>
-                            <p className="mt-1.5 text-[#77777d] text-[12px]">Unite Venture Studio * Full-Time</p>
-                        </div>
-                        <div className="flex items-center gap-2 px-3 py-2 border border-[#ededee] text-[12px] text-[#33333b] font-medium">
-                            <Briefcase size="xs" />
-                            <p className="text-nowrap">Aug 2025 - present</p>
-                        </div>
-                    </div>
-                    <div className="text-[12px] text-[#77777d] flex items-center gap-2 my-4">
-                        <LocationAlt color="#77777d" size="xs" />
-                        <p>Ashgabat, Ahal, Turkmenistan</p>
-                    </div>
-                    <div className="absolute top-0 -left-1 w-1.5 h-1.5 rounded-full bg-[#8e8e92]" />
-                    <p className="text-[12px] text-[#77777d] max-w-100">Developed subscription management, payment, and customer dashboard features for a SaaS platform, delivering responsive, scalable user experiences while collaborating closely with backend engineers to build and integrate reliable APIs.</p>
-                </div>
-            </div>
+            <div className="flex flex-col">
+                {experiences.map((experience, index) => (
+                    <div
+                        key={`${experience.company}-${experience.period}`}
+                        className={`border-l-2 border-[#ededee] ${index !== experiences.length - 1 ? "pb-8" : ""
+                            }`}
+                    >
+                        <div className="relative pl-6">
+                            <div className="flex gap-3 justify-between items-center">
+                                <div>
+                                    <p className="font-medium">{experience.title}</p>
+                                    <p className="mt-1.5 text-[#77777d] text-[13.5px]">
+                                        {experience.company} • {experience.employment}
+                                    </p>
+                                </div>
 
-            <div className="border-l-2 border-[#ededee] pb-8">
-                <div className="relative pl-6">
-                    <div className="flex gap-3 justify-between items-center">
-                        <div>
-                            <p className="font-medium">Frontend Developer</p>
-                            <p className="mt-1.5 text-[#77777d] text-[12px]">ORLAN * Full-Time</p>
-                        </div>
-                        <div className="flex items-center gap-2 px-3 py-2 border border-[#ededee] text-[12px] text-[#33333b] font-medium">
-                            <Briefcase size="xs" />
-                            <p className="text-nowrap">Jun 2024 - Aug 2025</p>
-                        </div>
-                    </div>
-                    <div className="text-[12px] text-[#77777d] flex items-center gap-2 my-4">
-                        <LocationAlt color="#77777d" size="xs" />
-                        <p>Ashgabat, Ahal, Turkmenistan</p>
-                    </div>
-                    <div className="absolute top-0 -left-1 w-1.5 h-1.5 rounded-full bg-[#8e8e92]" />
-                    <p className="text-[12px] text-[#77777d] max-w-100">Developed scalable frontend solutions for a consulting platform, building reusable dashboard components, client management features, and secure authentication while collaborating with backend engineers to deliver reliable and maintainable applications.</p>
-                </div>
-            </div>
+                                <div className="flex items-center gap-2 px-3 py-2 border border-[#ededee] text-[12px] text-[#33333b] font-medium">
+                                    <Briefcase size="xs" />
+                                    <p className="text-nowrap">{experience.period}</p>
+                                </div>
+                            </div>
 
-            <div className="border-l-2 border-[#ededee]">
-                <div className="relative pl-6">
-                    <div className="flex gap-3 justify-between items-center">
-                        <div>
-                            <p className="font-medium">Frontend Developer</p>
-                            <p className="mt-1.5 text-[#77777d] text-[12px]">Breakthrough Academy * Full-Time</p>
-                        </div>
-                        <div className="flex items-center gap-2 px-3 py-2 border border-[#ededee] text-[12px] text-[#33333b] font-medium">
-                            <Briefcase size="xs" />
-                            <p className="text-nowrap">Sep 2023 - Jun 2024</p>
+                            <div className="text-[12px] text-[#77777d] flex items-center gap-2 my-4">
+                                <LocationAlt color="#77777d" size="xs" />
+                                <p>{experience.location}</p>
+                            </div>
+
+                            <div className="absolute top-0 -left-1 w-1.5 h-1.5 rounded-full bg-[#8e8e92]" />
+
+                            <p className="text-[12px] text-[#77777d] max-w-100">
+                                {experience.description}
+                            </p>
                         </div>
                     </div>
-                    <div className="text-[12px] text-[#77777d] flex items-center gap-2 my-4">
-                        <LocationAlt color="#77777d" size="xs" />
-                        <p>Johor Bahru, Johor, Malaysia</p>
-                    </div>
-                    <div className="absolute top-0 -left-1 w-1.5 h-1.5 rounded-full bg-[#8e8e92]" />
-                    <p className="text-[12px] text-[#77777d] max-w-100">Developed responsive frontend solutions for a consulting platform, building client onboarding, consultation workflows, and interactive forms while collaborating with backend engineers to deliver accessible and user-friendly experiences.</p>
-                </div>
+                ))}
             </div>
         </div>
     )
