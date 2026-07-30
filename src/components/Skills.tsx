@@ -84,7 +84,7 @@ function Skills() {
                             {items.map((skill) => (
                                 <div
                                     key={skill}
-                                    className="flex items-center gap-1.5 px-2 py-2 border border-[#ededee] bg-white text-[12px] text-[#33333b] rounded-lg font-medium"
+                                    className="flex items-center gap-1.5 px-2 py-2 border border-[#ededee] text-[12px] text-[#33333b] rounded-lg font-medium"
                                 >
                                     <Check size="xs" />
                                     <p>{skill}</p>

@@ -26,8 +26,9 @@ function Hero() {
                     <span>Send email</span>
                 </a>
                 <a
-                    href="#"
-                    className="flex items-center w-fit gap-2 rounded-xl bg-[#ededee] px-4 py-2.5 h-10 font-medium text-[14px]"
+                    href="/Resume EN.pdf"
+                    download="Artyom_Agadzhanyan_CV.pdf"
+                    className="flex items-center w-fit gap-2 rounded-xl bg-[#ededee] px-4 py-2.5 h-10 font-medium text-[14px] transition-all duration-200 hover:bg-[#e5e5e7]"
                 >
                     <ArrowToBottom size="xs" />
                     <span>Download CV</span>

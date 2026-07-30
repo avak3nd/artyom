@@ -15,16 +15,14 @@ function Education() {
             </div>
 
             <div>
-                <div>
-                    <div className="flex gap-3 justify-between items-center">
-                        <div>
-                            <p className="font-medium">Universiti Tenaga Nasional</p>
-                            <p className="mt-1.5 text-[#77777d] text-[12px]">Bachelor’s degree * Information Technology</p>
-                        </div>
-                        <div className="flex items-center gap-2 px-3 py-2 border border-[#ededee] text-[12px] text-[#33333b] font-medium">
-                            <CalendarDetail size="xs" />
-                            <p className="text-nowrap">Oct 2019 - Jun 2024</p>
-                        </div>
+                <div className="flex gap-3 justify-between items-center">
+                    <div>
+                        <p className="font-medium">Universiti Tenaga Nasional</p>
+                        <p className="mt-1.5 text-[#77777d] text-[12px]">Bachelor’s degree * Information Technology</p>
+                    </div>
+                    <div className="flex items-center gap-2 px-3 py-2 border border-[#ededee] text-[12px] text-[#33333b] font-medium">
+                        <CalendarDetail size="xs" />
+                        <p className="text-nowrap">Oct 2019 - Jun 2024</p>
                     </div>
                 </div>
             </div>
