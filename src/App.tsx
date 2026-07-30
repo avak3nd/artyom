@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Profile from './components/Profile'
 import Experience from './components/Experience'
 import Education from './components/Education'
+import Skills from './components/Skills'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <div className='mt-3 flex flex-col gap-3'>
         <Experience />
         <Education />
+        <Skills />
       </div>
     </div>
   )
