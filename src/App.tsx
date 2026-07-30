@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Profile from './components/Profile'
+import Experience from './components/Experience'
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
       <Navbar />
       <Hero />
       <Profile />
+      <div className='mt-3'>
+        <Experience />
+      </div>
     </div>
   )
 }
