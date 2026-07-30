@@ -19,7 +19,7 @@ function Hero() {
             </center>
             <div className="flex items-center justify-center gap-2 mt-6">
                 <a
-                    href="#"
+                    href="mailto:artyom.dev250@gmail.com"
                     className="flex items-center w-fit gap-2 rounded-xl bg-[#1d1d26] px-4 py-2.5 h-10 font-medium text-white transition-all duration-200 hover:opacity-90 text-[14px]"
                 >
                     <EnvelopeAlt size="xs" />

@@ -8,6 +8,7 @@ import Education from './components/Education'
 import Skills from './components/Skills'
 import Pricing from './components/Pricing'
 import Feedbacks from './components/Feedbacks'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Pricing />
         <Feedbacks />
       </div>
+      <Contact />
     </div>
   )
 }

@@ -22,7 +22,7 @@ function Navbar() {
                 </ul>
 
                 <a
-                    href="#"
+                    href="#Contact"
                     className="flex items-center gap-2 rounded-xl bg-[#1d1d26] px-4 py-2.5 h-10 font-medium text-white transition-all duration-200 hover:opacity-90 text-[14px]"
                 >
                     <Pen size="xs" />
