@@ -1,6 +1,7 @@
 import './App.css'
 
 import Navbar from './layouts/Navbar'
+
 import Hero from './components/Hero'
 import Profile from './components/Profile'
 import Experience from './components/Experience'
@@ -9,6 +10,8 @@ import Skills from './components/Skills'
 import Pricing from './components/Pricing'
 import Feedbacks from './components/Feedbacks'
 import Contact from './components/Contact'
+
+import Footer from './layouts/Footer'
 
 function App() {
   return (
@@ -24,10 +27,7 @@ function App() {
         <Feedbacks />
       </div>
       <Contact />
-
-      <center>
-        <p className='text-[#77777d] pt-10 mt-20 max-w-225 border-t-2 border-[#ededee] text-[15px]'>Built with ❤️ By <b>Artyom Agadzhanyan</b></p>
-      </center>
+      <Footer />
     </div>
   )
 }
