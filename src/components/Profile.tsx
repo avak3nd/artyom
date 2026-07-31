@@ -3,8 +3,8 @@ import { UserIdCard } from "@boxicons/react"
 
 function Profile() {
     return (
-        <div className="mt-25 w-full max-w-225 mx-auto flex gap-3" id="Profile">
-            <div className="max-w-66.25 w-full">
+        <div className="mt-25 w-full max-w-225 mx-auto flex gap-3 max-[600px]:flex-col" id="Profile">
+            <div className="max-w-66.25 w-full max-[600px]:max-w-full">
                 <img src="/profile.jpg" alt="profile" className="rounded-2xl w-full h-full object-cover" />
             </div>
             <div className="px-6 pt-6 pb-8 border border-[#ededee] bg-white w-full rounded-2xl flex flex-col justify-between gap-5">

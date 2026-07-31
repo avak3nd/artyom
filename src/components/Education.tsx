@@ -15,7 +15,7 @@ function Education() {
             </div>
 
             <div>
-                <div className="flex flex-wrap gap-3 justify-between items-center">
+                <div className="flex flex-wrap gap-4 justify-between items-center">
                     <div>
                         <p className="font-medium">Universiti Tenaga Nasional</p>
                         <p className="mt-1.5 text-[#77777d] text-[13.5px]">Bachelor’s degree • Information Technology</p>

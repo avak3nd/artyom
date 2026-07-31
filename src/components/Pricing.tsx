@@ -13,7 +13,7 @@ function Pricing() {
                 <p className="text-[#77777d] text-[14px] mt-3 font-medium max-w-100 ">Transparent pricing for professional resume and career services, designed to help you take the next step.</p>
             </div>
 
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-2 gap-3 max-[600px]:grid-cols-1">
 
                 {/* Card one */}
                 <div className="border border-[#ededee] p-6 rounded-2xl h-fit">
