@@ -52,7 +52,7 @@ function Experience() {
                             }`}
                     >
                         <div className="relative pl-6">
-                            <div className="flex gap-3 justify-between items-center">
+                            <div className="flex gap-3 justify-between items-center flex-wrap">
                                 <div>
                                     <p className="font-medium">{experience.title}</p>
                                     <p className="mt-1.5 text-[#77777d] text-[13.5px]">

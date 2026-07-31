@@ -1,5 +1,5 @@
 import { EnvelopeAlt } from "@boxicons/react"
-import { ArrowToBottom } from "@boxicons/react"
+import { ArrowUpRightStroke } from "@boxicons/react"
 
 function Hero() {
     return (
@@ -17,7 +17,7 @@ function Hero() {
             <center>
                 <p className="text-[#77777d] text-[18px] font-medium">Middle Frontend Dev & Career Consultant</p>
             </center>
-            <div className="flex items-center justify-center gap-2 mt-6">
+            <div className="flex items-center justify-center gap-2 flex-wrap mt-6">
                 <a
                     href="mailto:artyom.dev250@gmail.com"
                     className="flex items-center w-fit gap-2 rounded-xl bg-[#1d1d26] px-4 py-2.5 h-10 font-medium text-white transition-all duration-200 hover:opacity-90 text-[14px]"
@@ -26,12 +26,12 @@ function Hero() {
                     <span>Send email</span>
                 </a>
                 <a
-                    href="/Resume EN.pdf"
-                    download="Artyom_Agadzhanyan_CV.pdf"
+                    href="https://www.linkedin.com/in/artyom-agadzhanyan-0779ba3a7/"
+                    target="_blank"
                     className="flex items-center w-fit gap-2 rounded-xl bg-[#ededee] px-4 py-2.5 h-10 font-medium text-[14px] transition-all duration-200 hover:bg-[#e5e5e7]"
                 >
-                    <ArrowToBottom size="xs" />
-                    <span>Download CV</span>
+                    <ArrowUpRightStroke size="xs" />
+                    <span>Learn more</span>
                 </a>
             </div>
         </div>

@@ -12,7 +12,7 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <div className="bg-[#f9f9f9] min-h-screen px-4 pb-25">
+    <div className="bg-[#f9f9f9] min-h-screen px-4 pb-15">
       <Navbar />
       <Hero />
       <Profile />
@@ -24,6 +24,10 @@ function App() {
         <Feedbacks />
       </div>
       <Contact />
+
+      <center>
+        <p className='text-[#77777d] pt-10 mt-20 max-w-225 border-t-2 border-[#ededee] text-[15px]'>Built with ❤️ By <b>Artyom Agadzhanyan</b></p>
+      </center>
     </div>
   )
 }
