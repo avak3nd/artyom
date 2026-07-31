@@ -27,7 +27,7 @@ function Pricing() {
                         <div>
                             <p>How it works:</p>
                             <ul className="flex flex-col gap-1.5 mt-2">
-                                <li>— Initial consultation: We’ll discuss your job search goals, experience, key roles, project contributions, and your preferences.</li>
+                                <li>— 60-minute consultation: We’ll discuss your job search goals, experience, key roles, project contributions, and your preferences.</li>
                                 <li>— Share your materials: Brief notes on your roles & responsibilities, portfolio links (if relevant).</li>
                             </ul>
                         </div>
@@ -75,7 +75,7 @@ function Pricing() {
                                 <li>— GitHub profile review (if relevant)</li>
                                 <li>— Portfolio website review (if relevant)</li>
                                 <li>— Bonus revisions</li>
-                                <li>— 45-minute additional consultation</li>
+                                <li>— 45-minute career consultation</li>
                                 <li>— Resume translation (English, Russian)</li>
                                 <li>— Priority delivery (24 hours)</li>
                             </ul>
