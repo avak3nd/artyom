@@ -1,4 +1,4 @@
-import { NoteBook, PhonePlus } from "@boxicons/react"
+import { NoteBook, CalendarAlt } from "@boxicons/react"
 
 function Contact() {
     return (
@@ -19,11 +19,12 @@ function Contact() {
             </center>
             <center>
                 <a
-                    href="#Contact"
+                    href="https://calendar.app.google/K4V3tRyf6dzVN6Ku7"
+                    target="_blank"
                     className="flex items-center gap-3.5 rounded-xl w-fit mt-8 bg-[#1d1d26] p-7 h-10 font-medium text-white transition-all duration-200 hover:opacity-90"
                 >
-                    <PhonePlus size="base" />
-                    <span>Book a call</span>
+                    <CalendarAlt size="base" />
+                    <span>Consultation</span>
                 </a>
             </center>
             <div className="flex items-center justify-center mt-8 gap-4">

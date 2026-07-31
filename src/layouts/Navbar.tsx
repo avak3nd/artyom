@@ -1,4 +1,4 @@
-import { PhonePlus } from "@boxicons/react"
+import { CalendarAlt } from "@boxicons/react"
 import { NoteBook } from "@boxicons/react"
 
 function Navbar() {
@@ -25,8 +25,8 @@ function Navbar() {
                     href="#Contact"
                     className="flex items-center gap-2 rounded-xl bg-[#1d1d26] px-4 py-2.5 h-10 font-medium text-white transition-all duration-200 hover:opacity-90 text-[14px]"
                 >
-                    <PhonePlus size="xs" />
-                    <span>Book a call</span>
+                    <CalendarAlt size="xs" />
+                    <span>Consultation</span>
                 </a>
             </nav>
         </div>
