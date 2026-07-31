@@ -75,7 +75,7 @@ function Pricing() {
                                 <li>— GitHub profile review (if relevant)</li>
                                 <li>— Portfolio website review (if relevant)</li>
                                 <li>— Bonus revisions</li>
-                                <li>— 30-minute additional consultation</li>
+                                <li>— 45-minute additional consultation</li>
                                 <li>— Resume translation (English, Russian)</li>
                                 <li>— Priority delivery (24 hours)</li>
                             </ul>
