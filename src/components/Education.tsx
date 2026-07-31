@@ -11,7 +11,7 @@ function Education() {
                     <School size="base" color="#77777d" />
                 </div>
                 <p className="text-[21px] font-medium">Education</p>
-                <p className="text-[#77777d] text-[14px] mt-3 font-medium max-w-100 ">Degree and certification in the specialized field of information technology.</p>
+                <p className="text-[#77777d] text-[14px] mt-3 font-medium max-w-100 ">Bachelor’s degree in the specialized field of information technology.</p>
             </div>
 
             <div>

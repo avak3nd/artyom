@@ -10,7 +10,7 @@ function Pricing() {
                     <CurrencyNote size="base" color="#77777d" />
                 </div>
                 <p className="text-[21px] font-medium">Pricing</p>
-                <p className="text-[#77777d] text-[14px] mt-3 font-medium max-w-100 ">Transparent pricing for professional resume and career services, designed to help you take the next step.</p>
+                <p className="text-[#77777d] text-[14px] mt-3 font-medium max-w-100 ">Transparent pricing for resume writing and application materials. Perfect for students, graduates, career changers, and professionals looking for their next opportunity.</p>
             </div>
 
             <div className="grid grid-cols-2 gap-3 max-[600px]:grid-cols-1">
@@ -18,17 +18,17 @@ function Pricing() {
                 {/* Card one */}
                 <div className="border border-[#ededee] p-6 rounded-2xl h-fit">
                     <p className="font-medium">
-                        Career Resume Refresh — $30
+                        Career Resume Package — $30
                     </p>
 
                     <div className="mt-3 text-[#77777d] text-[13.5px] flex flex-col gap-5">
-                        <p>I will build your resume from scratch: organize your experience, highlight key achievements, add measurable metrics, rewrite the content, and deliver a fully formatted final PDF document.</p>
+                        <p>I'll create a professional, ATS-friendly resume from scratch by organizing your experience, highlighting your achievements, and presenting your skills in a way that attracts recruiters and hiring managers.</p>
 
                         <div>
                             <p>How it works:</p>
                             <ul className="flex flex-col gap-1.5 mt-2">
-                                <li>— 60-minute consultation: We’ll discuss your job search goals, experience, key roles, project contributions, and your preferences.</li>
-                                <li>— Share your materials: Brief notes on your roles & responsibilities, portfolio links (if relevant).</li>
+                                <li>— 60-minute consultation: We'll discuss your career goals, work experience, key projects, achievements, and target roles.</li>
+                                <li>— Share your materials: Existing resume (if any), portfolio, LinkedIn profile, or notes about your experience.</li>
                             </ul>
                         </div>
 
@@ -36,14 +36,13 @@ function Pricing() {
                             <p>Final delivery:</p>
                             <ul className="flex flex-col gap-1.5 mt-2">
                                 <li>— ATS-friendly formatting</li>
-                                <li>— Structuring your experience and projects</li>
-                                <li>— Framing your main achievements</li>
-                                <li>— Describing your contribution, tasks, and results</li>
-                                <li>— Integrating relevant metrics and missing details</li>
-                                <li>— Rewriting the text in a clear, confident tone</li>
-                                <li>— Clean, easy-to-read layout</li>
+                                <li>— Professional resume structure</li>
+                                <li>— Achievement-focused bullet points</li>
+                                <li>— Quantified impact and metrics</li>
+                                <li>— Clear, confident writing</li>
+                                <li>— Clean, modern layout</li>
                                 <li>— One free revision</li>
-                                <li>— Delivery within 2–3 days</li>
+                                <li>— Delivery within 2–3 business days</li>
                             </ul>
                         </div>
 
@@ -60,7 +59,7 @@ function Pricing() {
                 {/* Card two */}
                 <div className="border border-[#ededee] p-6 rounded-2xl h-fit">
                     <p className="font-medium">
-                        Inexpensive extras — $7 each
+                        Inexpensive Extras — $7 each
                     </p>
 
                     <div className="mt-3 text-[#77777d] text-[13.5px] flex flex-col gap-5">
@@ -72,10 +71,9 @@ function Pricing() {
                                 <li>— LinkedIn optimization</li>
                                 <li>— Cover letter</li>
                                 <li>— Resume tailored to one job posting</li>
-                                <li>— GitHub profile review (if relevant)</li>
-                                <li>— Portfolio website review (if relevant)</li>
+                                <li>— GitHub profile review (if any)</li>
+                                <li>— Portfolio website review (if any)</li>
                                 <li>— Bonus revisions</li>
-                                <li>— 45-minute career consultation</li>
                                 <li>— Resume translation (English, Russian)</li>
                                 <li>— Priority delivery (24 hours)</li>
                             </ul>

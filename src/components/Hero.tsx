@@ -15,7 +15,7 @@ function Hero() {
                 <p className="text-[48px] font-medium leading-14 my-2 max-[600px]:text-[40px] max-[600px]:leading-12">Artyom Agadzhanyan</p>
             </center>
             <center>
-                <p className="text-[#77777d] text-[18px] font-medium">Middle Frontend Dev & Career Consultant</p>
+                <p className="text-[#77777d] text-[18px] font-medium">Middle Frontend Dev & Resume Writer</p>
             </center>
             <div className="flex items-center justify-center gap-2 flex-wrap mt-6">
                 <a

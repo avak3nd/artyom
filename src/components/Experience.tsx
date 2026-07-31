@@ -41,7 +41,7 @@ function Experience() {
                     <Briefcase size="base" color="#77777d" />
                 </div>
                 <p className="text-[21px] font-medium">Work Experience</p>
-                <p className="text-[#77777d] text-[14px] mt-3 font-medium max-w-100 ">Experienced in software development, I help clients showcase their expertise and advance their careers.</p>
+                <p className="text-[#77777d] text-[14px] mt-3 font-medium max-w-100 ">Experienced in software development, I help clients present their experience with clarity and confidence.</p>
             </div>
 
             <div className="flex flex-col">
