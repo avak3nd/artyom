@@ -31,7 +31,7 @@ function Feedbacks() {
                     <MessageDetail size="base" color="#77777d" />
                 </div>
                 <p className="text-[21px] font-medium">Feedbacks</p>
-                <p className="text-[#77777d] text-[14px] mt-3 font-medium max-w-100 ">Endorsements and testimonials highlighting professional aptitude and contributions from clients.</p>
+                <p className="text-[#77777d] text-[14px] mt-3 font-medium max-w-100 ">Feedback from clients who trusted me to strengthen their resumes and job application materials.</p>
             </div>
 
             <div className="flex flex-col gap-3">
