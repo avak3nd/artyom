@@ -1,5 +1,7 @@
 import { CurrencyNote } from "@boxicons/react"
 
+import SectionHeader from "./ui/SectionHeader"
+
 const pricingCards = [
     {
         title: "Resume Builder — $30",
@@ -57,19 +59,11 @@ function Pricing() {
             className="px-6 pt-6 pb-10 border border-[#ededee] bg-white rounded-2xl flex flex-col justify-between w-full max-w-225 mx-auto"
             id="Pricing"
         >
-            <div className="border-b border-[#ededee] pb-8 mb-10">
-                <div className="flex h-13.5 w-13.5 items-center justify-center rounded-xl border border-[#ededee] bg-[#f6f6f6] text-white mb-8">
-                    <CurrencyNote size="base" color="#77777d" />
-                </div>
-
-                <p className="text-[21px] font-medium">Pricing</p>
-
-                <p className="text-[#77777d] text-[14px] mt-3 font-medium max-w-100">
-                    Transparent pricing for resume writing and application materials.
-                    Perfect for students, graduates, career changers, and professionals
-                    looking for their next opportunity.
-                </p>
-            </div>
+            <SectionHeader
+                icon={CurrencyNote}
+                title="Pricing"
+                description="Transparent pricing for resume writing and application materials. Perfect for students, graduates, and early-career professionals looking to build stronger resumes and job application materials."
+            />
 
             <div className="grid grid-cols-2 gap-3 max-[800px]:grid-cols-2 max-[600px]:grid-cols-1">
                 {pricingCards.map((card) => (

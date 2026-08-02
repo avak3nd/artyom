@@ -1,18 +1,16 @@
 import { School } from "@boxicons/react";
 import { CalendarDetail } from "@boxicons/react"
 
+import SectionHeader from "./ui/SectionHeader";
+
 function Education() {
     return (
         <div className="px-6 pt-6 pb-10 border border-[#ededee] bg-white rounded-2xl flex flex-col justify-between w-full max-w-225 mx-auto" id="Education">
-            <div className="border-b border-[#ededee] pb-8 mb-10">
-                <div
-                    className="flex h-13.5 w-13.5 items-center justify-center rounded-xl border border-[#ededee] bg-[#f6f6f6] text-white mb-8"
-                >
-                    <School size="base" color="#77777d" />
-                </div>
-                <p className="text-[21px] font-medium">Education</p>
-                <p className="text-[#77777d] text-[14px] mt-3 font-medium max-w-100 ">Bachelor’s degree in the specialized field of information technology.</p>
-            </div>
+            <SectionHeader
+                icon={School}
+                title="Education"
+                description="Bachelor’s degree in the specialized field of information technology."
+            />
 
             <div>
                 <div className="flex flex-wrap gap-4 justify-between items-center">

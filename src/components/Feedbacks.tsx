@@ -1,5 +1,7 @@
 import { MessageDetail } from "@boxicons/react"
 
+import SectionHeader from "./ui/SectionHeader";
+
 function Feedbacks() {
     const feedbacks = [
         {
@@ -24,15 +26,11 @@ function Feedbacks() {
 
     return (
         <div className="px-6 pt-6 pb-10 border border-[#ededee] bg-white rounded-2xl flex flex-col justify-between w-full max-w-225 mx-auto" id="Feedbacks">
-            <div className="border-b border-[#ededee] pb-8 mb-10">
-                <div
-                    className="flex h-13.5 w-13.5 items-center justify-center rounded-xl border border-[#ededee] bg-[#f6f6f6] text-white mb-8"
-                >
-                    <MessageDetail size="base" color="#77777d" />
-                </div>
-                <p className="text-[21px] font-medium">Feedbacks</p>
-                <p className="text-[#77777d] text-[14px] mt-3 font-medium max-w-100 ">Feedback from clients who trusted me to strengthen their resumes and job application materials.</p>
-            </div>
+            <SectionHeader
+                icon={MessageDetail}
+                title="Feedbacks"
+                description="Feedback from clients who trusted me to strengthen their resumes and job application materials."
+            />
 
             <div className="flex flex-col gap-3">
                 {feedbacks.map((feedback) => (
