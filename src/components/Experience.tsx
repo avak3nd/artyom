@@ -39,7 +39,7 @@ function Experience() {
             <SectionHeader
                 icon={Briefcase}
                 title="Work Experience"
-                description="Experienced in software development, I help clients present their experience with clarity and confidence."
+                description="Leveraging my software development background, I help clients present their experience with confidence."
             />
 
             <div className="flex flex-col">

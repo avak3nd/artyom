@@ -70,7 +70,7 @@ function Skills() {
             <SectionHeader
                 icon={GridPlus}
                 title="Professional Skills"
-                description="My competencies essential for navigating and excelling in various professional contexts."
+                description="A diverse skill set combining software development expertise with professional resume writing."
             />
 
             <div className="flex flex-col gap-8">

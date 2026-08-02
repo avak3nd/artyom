@@ -15,7 +15,7 @@ function Profile() {
                         <UserIdCard size="base" color="#77777d" />
                     </div>
                     <p className="text-[21px] font-medium">Professional Profile</p>
-                    <p className="text-[#77777d] text-[14px] mt-3 font-medium">With 3+ years of commercial experience in software development, I combine technical expertise with a passion for helping professionals present their experience effectively. I create ATS-friendly resumes and application materials that highlight your strengths, showcase your achievements, and help you stand out in today's competitive job market.</p>
+                    <p className="text-[#77777d] text-[14px] mt-3 font-medium">With 3+ years of commercial experience in software development, I combine technical expertise with a passion for helping people present their experience effectively. I create ATS-friendly resumes and application materials that highlight your strengths, showcase your achievements, and help you stand out in today's competitive job market.</p>
                 </div>
                 <div className="text-[12px] text-[#77777d] flex items-center gap-2">
                     <LocationAlt color="#77777d" size="xs" />
