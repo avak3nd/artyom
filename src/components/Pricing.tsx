@@ -62,7 +62,7 @@ function Pricing() {
             <SectionHeader
                 icon={CurrencyNote}
                 title="Pricing"
-                description="Transparent pricing for resume writing and application materials. Perfect for students, graduates, and early-career professionals looking to build stronger resumes and job application materials."
+                description="Transparent pricing for resume writing and application materials. Perfect for students, graduates, and career professionals looking to build stronger resumes and job application materials."
             />
 
             <div className="grid grid-cols-2 gap-3 max-[800px]:grid-cols-2 max-[600px]:grid-cols-1">
