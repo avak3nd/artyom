@@ -6,10 +6,19 @@ import SectionHeader from "./ui/SectionHeader";
 function Experience() {
     const experiences = [
         {
+            title: "Resume Writer & ATS Optimization Specialist",
+            company: "Freelance",
+            employment: "Full-Time",
+            period: "Aug 2026 - Present",
+            location: "Remote, Worldwide",
+            description:
+                "Crafted ATS-friendly resumes, tailored cover letters, and job-specific application materials by highlighting clients' achievements and optimizing content with industry keywords. Enhanced LinkedIn profiles and personal branding to improve visibility and strengthen job application success.",
+        },
+        {
             title: "Frontend Developer",
             company: "Unite Venture Studio",
             employment: "Full-Time",
-            period: "Aug 2025 - Present",
+            period: "Aug 2025 - Jul 2026",
             location: "Ashgabat, Ahal, Turkmenistan",
             description:
                 "Developed subscription management, payment, and customer dashboard features for a SaaS platform, delivering responsive, scalable user experiences while collaborating closely with backend engineers to build and integrate reliable APIs.",
@@ -18,7 +27,7 @@ function Experience() {
             title: "Frontend Developer",
             company: "ORLAN",
             employment: "Full-Time",
-            period: "Jun 2024 - Aug 2025",
+            period: "Jun 2024 - Jul 2025",
             location: "Ashgabat, Ahal, Turkmenistan",
             description:
                 "Developed scalable frontend solutions for a consulting platform, building reusable dashboard components, client management features, and secure authentication while collaborating with backend engineers to deliver reliable and maintainable applications.",
@@ -27,7 +36,7 @@ function Experience() {
             title: "Frontend Developer",
             company: "Breakthrough Academy",
             employment: "Full-Time",
-            period: "Sep 2023 - Jun 2024",
+            period: "Sep 2023 - May 2024",
             location: "Johor Bahru, Johor, Malaysia",
             description:
                 "Developed responsive frontend solutions for a consulting platform, building client onboarding, consultation workflows, and interactive forms while collaborating with backend engineers to deliver accessible and user-friendly experiences.",
