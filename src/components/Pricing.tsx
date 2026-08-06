@@ -4,7 +4,7 @@ import SectionHeader from "./ui/SectionHeader"
 
 const pricingCards = [
     {
-        title: "Resume Builder — $30",
+        title: "Resume Builder — $40",
         description:
             "I'll create a professional, ATS-friendly resume from scratch by organizing your experience, highlighting your achievements, and presenting your skills in a way that attracts recruiters and hiring managers.",
         heading: "Final delivery:",
@@ -20,7 +20,7 @@ const pricingCards = [
         ],
     },
     {
-        title: "Extras — $7 each",
+        title: "Extras — $10 each",
         description:
             "If you would like to expand your application toolkit, I can customize your core materials for high-priority roles, enhance your professional profiles, and deliver supplemental files.",
         heading: "Additional services:",
