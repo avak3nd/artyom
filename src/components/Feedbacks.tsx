@@ -5,11 +5,11 @@ import SectionHeader from "./ui/SectionHeader";
 function Feedbacks() {
     const feedbacks = [
         {
-            name: "Abby Nichols",
-            role: "Data Engineer",
-            date: "Oct 2023",
+            name: "Ylyas Bayramov",
+            role: "Backend Developer",
+            date: "Aug 2026",
             message:
-                "Developed subscription management, payment, and customer dashboard features for a SaaS platform, delivering responsive, scalable user experiences while collaborating closely with backend engineers to build and integrate reliable APIs.",
+                "I've had the chance to work with Artyom in two different ways. We worked together on an outsourced project where he was a frontend developer, and later I became his client for resume writing. In both cases, he was easy to work with, reliable, and always delivered quality work. He did a great job rewriting my resume, making it much clearer and more professional while keeping it true to my experience. Whether you're looking for a frontend developer or someone to help improve your resume, I'd definitely recommend Artyom. He's skilled, approachable, and genuinely cares about doing a good job.",
             color: "border-[#2ede7f]",
             link: "#",
         },

@@ -15,4 +15,8 @@
     .card {
         @apply border border-[#ededee] p-6 rounded-2xl h-fit;
     }
+
+    .sm {
+        @apply w-6 opacity-50 transition-all duration-200 hover:opacity-100;
+    }
 }
